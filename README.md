@@ -10,4 +10,12 @@ Basically a command prompt style Talking Ben, I will add more and more funcional
 -Detect if you typed anything or not. If not, tells you to type something.              
 -Allow you to type exit to exit the game. (omg so cool)               
 
+1.2.0
+-Added 8 activities to do with Ben!
+-COLORS!
+-Added actions
+and much more!
+
 This is my first script/game/project. I am a big newb and hope you enjoy my game. 
+Made with love <3 
+By 6plosive
