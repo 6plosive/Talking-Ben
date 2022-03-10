@@ -1,7 +1,9 @@
 # Talking-Ben
-Basically a command prompt style Talking Ben, I will add more and more funcionality. 
+Basically a command prompt style Talking Ben, I will add more and more funcionality.              
+[Talking Ben showcase 1](https://user-images.githubusercontent.com/101194078/157687466-0d9027f3-b8f4-4386-b07c-9819d5c05399.png)
 
-1.0.0
+1.0.0!
+
 -Basic function of calling talking ben. Saying yes, no, hohoho and ajosdhfuisgisdf when you talk with him. very basic. 
 
 1.1.0
