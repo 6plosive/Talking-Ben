@@ -240,14 +240,14 @@ int main()
         case 9:
             cout << "###########\t\t\n";
             cout << "#         #\t\tCredit to:\n";
-            cout << "#   ###   #\t\tMe(6plosive)\n";
+            cout << "#   ###   #\t\t\033[33mMe(6plosive)\033[0m\n";
             cout << "#  #   #  #\t\t\n";
             cout << "#  #      #\t\tGitHub:\n";
             cout << "#  ####   #\t\thttps://github.com/6plsovie"<<endl;
             cout << "#  #   #  #\t\t\n";
             cout << "#  #   #  #\t\t\n";
-            cout << "#   ###   #\t\tMade with LOVE <3\n";
-            cout << "#         #\t\tby 6plosive\n";
+            cout << "#   ###   #\t\t\033[31mMade with LOVE <3\033[0m\n";
+            cout << "#         #\t\t\033[31mby 6plosive\033[0m\n";
             cout << "###########\t\t\n";
             cin.ignore();
             cin.ignore();
