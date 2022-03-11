@@ -95,7 +95,7 @@ int main()
             }
             break;
         case 2:
-            cout << "\033[36m(Type anything you want Ben to say!Type exit to exit.)\033[0m\n";
+            cout << "\033[36m(Type anything you want Ben to say! Type exit to exit.)\033[0m\n";
             getline(cin, x);
             for (int i = 1; i > 0;i++)
             {
@@ -107,7 +107,7 @@ int main()
                 }
                 else if (x == "exit" || x == "Exit")
                 {
-                    cout << "\033[33m\t\t\t\tOk";
+                    cout << "\033[33m\t\t\t\tBen: Ok";
                     sleep_for(1s);
                     system("cls");
                     goto START;
@@ -121,7 +121,7 @@ int main()
             }
             break;
         case 3:
-            cout << "*Flips newspaper*\033[0m\n";
+            cout << "\033[33m\t\t\t\t*Flips newspaper*\033[0m\n";
             getline(cin, x);
 
             for (int i = 1; i > 0; i++)
@@ -147,7 +147,7 @@ int main()
             }
             break;
         case 4:
-            cout << "*Closes newspaper*";
+            cout << "\033[33m*Closes newspaper*";
             sleep_for(1s);
             system("cls");
             cout << "\033[33mHMmm!";
@@ -177,7 +177,7 @@ int main()
             goto START;
             break;
         case 5:
-            cout << "Mmm!";
+            cout << "\033[33mMmm!";
             sleep_for(1s);
             system("cls");
             cout << "*Grabs bean and spoon*";
@@ -249,7 +249,8 @@ int main()
             cout << "#   ###   #\t\tMade with LOVE <3\n";
             cout << "#         #\t\tby 6plosive\n";
             cout << "###########\t\t\n";
-            sleep_for(10s);
+            cin.ignore();
+            cin.ignore();
             system("cls");
             goto START;
             break;
@@ -257,7 +258,7 @@ int main()
             for (int i = 1;i <= 10;i++)
             {
                 string u(i, 'u');
-                cout <<"\033[33mB" << u << "rp";
+                cout <<"\033[33mBen: B" << u << "rp";
                 sleep_for(100ms);
                 system("cls");
             }
