@@ -17,7 +17,7 @@ using std::chrono::system_clock;
 int main()
 {
     system("color 07");
-    int choice;//press 123456780
+    int choice;//press 1234567890
     string x;//question he asked, won't get saved
     string wordList[4] = { "Yes.", "No.", "Ho ho ho.", "hlreurh" };
     string wordList2[2] = { "Na Na Na.", "Shhh" };
@@ -49,6 +49,7 @@ int main()
         cout << "\033[36m(7)\033[1;37m Punch Ben's face\n";
         cout << "\033[36m(8)\033[1;37m Slaps Ben's face\n";
         cout << "\033[36m(9)\033[1;37m Credit(To me of course)\n";
+        cout << "\033[36m(10)\033[1;37m Ben burps\n";
         cout << "\033[36m(0)\033[1;37m Exit\n";
         cout << "What would you like to do?:\033[0m";
         cin >> choice;
@@ -242,14 +243,24 @@ int main()
             cout << "#   ###   #\t\tMe(6plosive)\n";
             cout << "#  #   #  #\t\t\n";
             cout << "#  #      #\t\tGitHub:\n";
-            cout << "#  ####   #\t\tgithub.com/6plsovie\n";
+            cout << "#  ####   #\t\thttps://github.com/6plsovie"<<endl;
             cout << "#  #   #  #\t\t\n";
             cout << "#  #   #  #\t\t\n";
             cout << "#   ###   #\t\tMade with LOVE <3\n";
             cout << "#         #\t\tby 6plosive\n";
             cout << "###########\t\t\n";
-            sleep_for(15s);
+            sleep_for(10s);
             system("cls");
+            goto START;
+            break;
+        case 10:
+            for (int i = 1;i <= 10;i++)
+            {
+                string u(i, 'u');
+                cout <<"\033[33mB" << u << "rp";
+                sleep_for(100ms);
+                system("cls");
+            }
             goto START;
             break;
         case 0:
